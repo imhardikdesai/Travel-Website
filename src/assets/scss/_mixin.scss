@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'TradeGothic LT Extended';
+    src: url('./../font/TradeGothic/regular.otf');
+}
+
+
 @mixin flex {
     display: flex;
     align-items: center;
@@ -5,7 +11,12 @@
     // flex-grow: 0;
 }
 
-@font-face {
-    font-family: 'TradeGothic LT Extended';
-    src: url('./../font/TradeGothic/regular.otf');
+@mixin transition-ease {
+    transition: all 0.4s ease-in-out;
+}
+
+@mixin btn-style($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    border: 1px solid $text-color;
 }

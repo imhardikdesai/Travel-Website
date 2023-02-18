@@ -63,6 +63,16 @@ nav {
             font-weight: 600;
             font-size: 14px;
             line-height: 17px;
+            border-radius: 0px;
+
+            &:hover {
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+                padding-bottom: 3px;
+                border-radius: 2px;
+                border-bottom: 2px solid #fff;
+            }
+
         }
 
         :nth-child(2) {
@@ -76,6 +86,13 @@ nav {
             font-size: 14px;
             line-height: 17px;
             text-align: center;
+            border: 1px solid transparent;
+
+            &:hover {
+                cursor: pointer;
+                @include btn-style(transparent, #fff);
+                @include transition-ease;
+            }
         }
     }
 }
@@ -120,4 +137,3 @@ nav {
         margin-top: 16px;
     }
 }
-

@@ -19,9 +19,8 @@ const HeaderPage = () => {
                         Special offers to suit your plan
                     </div>
                 </div>
-
-                <InputBox />
             </div>
+                <InputBox />
         </>
     )
 }
