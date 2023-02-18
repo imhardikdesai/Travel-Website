@@ -1,9 +1,9 @@
-import './App.css';
+import HeaderPage from './components/Header/HeaderPage';
 
 function App() {
   return (
     <div className="App">
-     React
+      <HeaderPage />
     </div>
   );
 }
