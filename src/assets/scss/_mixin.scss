@@ -1,6 +1,11 @@
 @mixin flex {
     display: flex;
     align-items: center;
-    flex: none;
-    flex-grow: 0;
+    // flex: none;
+    // flex-grow: 0;
+}
+
+@font-face {
+    font-family: 'TradeGothic LT Extended';
+    src: url('./../font/TradeGothic/regular.otf');
 }
